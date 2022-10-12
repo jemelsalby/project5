@@ -1,0 +1,46 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <table class="table" align="center" border="1" width="100%">
+                <thead>
+                    <tr>
+                       
+                        <th scope="col">id</th>
+                        <th scope="col">title</th>
+                        <th scope="col">description</th>
+                        <th scope="col">price</th>
+                        <th scope="col">discountPercentage</th>
+                        <th scope="col">rating</th>
+                        <th scope="col">stock</th>
+                        <th scope="col">brand</th>
+                        <th scope="col">category</th>
+                        <th scope="col">thumbnail</th>
+                        <th scope="col">images</th>
+                        
+            
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor=" let i of list.products">
+                     
+                         
+                        <td>{{i.id}} </td>
+                        <td>{{i.title}}</td>    
+                        <td>{{i.description}} </td>
+                        <td>{{i.price}} </td>
+                        <td>{{i.discountPercentage}}</td>    
+                        <td>{{i.rating}} </td>
+                        <td>{{i.stock}} </td>
+                        <td>{{i.brand}}</td>    
+                        <td>{{i.category}} </td>
+                        <td>{{i.thumbnail}} </td>
+                        <td>{{i.images}}</td>    
+                    
+
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
